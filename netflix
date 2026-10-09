@@ -1,0 +1,83 @@
+# Static Netflix Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #e50914;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            height: 60vh;
+            background-image: url('https://via.placeholder.com/1920x1080');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #e50914;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+    </header>
+    <div class="hero">
+        <h1>Unlimited Movies, TV Shows, and More.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button class="btn">Get Started</button>
+    </div>
+</body>
+</html>
+
